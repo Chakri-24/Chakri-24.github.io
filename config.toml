@@ -1,0 +1,42 @@
+baseURL = "https://dataengineerpro.in/"
+title = "Data Engineer Pro"
+theme = "PaperMod"
+paginate = 10
+
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+
+[params]
+  defaultTheme = "auto"
+  showReadingTime = true
+  showShareButtons = true
+  showToc = true
+  showPostNavLinks = true
+  showCodeCopyButtons = true
+  profileMode = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Chakri — Data Engineer"
+    subtitle = "Big Data | Spark | Cloud | Architecture | Interviews"
+    imageUrl = ""  # add your profile picture path later
+    buttons = [
+      { name = "Blog", url = "/posts/" },
+      { name = "About", url = "/about/" }
+    ]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
