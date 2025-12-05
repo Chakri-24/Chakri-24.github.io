@@ -128,6 +128,18 @@
     </nav>
 </header>
 <main class="main"> 
+
+<article class="first-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Parquet vs ORC — My Findings
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Table Example Format Compression Read Speed Parquet Snappy Fast ORC Zlib Very Fast Code Snippet from pyspark.sql import SparkSession spark = SparkSession.builder.appName(&#34;Demo&#34;).getOrCreate() df = spark.read.parquet(&#34;data.parquet&#34;) df.show() graph LR A[Raw Data] --&gt; B[Parquet Files] A --&gt; C[ORC Files] B --&gt; D[Spark ETL] C --&gt; D D --&gt; E[Analytics] </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-11-27 22:00:00 +0530 IST'>November 27, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to Parquet vs ORC — My Findings" href="https://Chakri-24.github.io/posts/parquet-vs-orc/"></a>
+</article>
     </main>
     
 <footer class="footer">
